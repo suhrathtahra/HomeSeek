@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/signupb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEW CUSTOMER?Sign UP"
+            android:background="@drawable/style"
+            android:textColor="#F3F3F4"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="HomeSeek"
+            android:textColor="#3F51B5"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="50dp"
+            android:text="E-mail"
+            android:textColor="@color/black" />
+
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/useremail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:background="@drawable/style"
+            android:padding="20dp"
+            android:inputType="text"
+            android:textColorHint="@color/black"
+            android:textAlignment="center"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="68dp"
+            android:text="Password"
+            android:textColor="@color/black" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/password1"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:background="@drawable/style"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black"
+            />
+        <EditText
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FORGOT PASSWORD?"
+            android:textColor="#000000"
+            android:layout_gravity="end"
+            android:layout_marginRight="75dp"
+            />
+        <Button
+            android:id="@+id/loginb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#4CAF50"
+            android:textColor="@color/black"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

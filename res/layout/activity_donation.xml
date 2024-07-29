@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".donation"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="55dp"
+        android:text="Donate here"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/style"
+        android:text="Choose any option"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="30dp"
+        />
+
+    <ImageButton
+        android:id="@+id/mrocket"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/rocket"
+        android:scaleType="fitCenter"
+        />
+    <ImageButton
+        android:id="@+id/mnagad"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/nogod"
+        android:scaleType="fitCenter"
+        />
+
+    <ImageButton
+        android:id="@+id/mbkash"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/bkash"
+        android:scaleType="fitCenter"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HaveALook"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/family_logo"
+            android:scaleType="fitCenter"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adopt a new life!"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="@color/purple_700"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Together! A family!"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textColor="@color/purple_700"
+            />
+        <TextView
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".  Eager to donate for helpless orphan child?\n.  looking for adopting a child?"
+            android:textAlignment="textStart"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            />
+
+
+
+
+<!--        <TextView-->
+<!--            android:layout_width="295dp"-->
+<!--            android:layout_height="42dp"-->
+<!--            android:layout_marginLeft="98dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginRight="290dp"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            android:text="Adopt a new life!"-->
+<!--            android:textColor="@color/purple_700"-->
+<!--            android:textSize="30dp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:layout_marginLeft="103dp"-->
+<!--            android:text="Together! A family! "-->
+<!--            android:textColor="@color/purple_700"-->
+<!--            android:textSize="25dp"-->
+<!--            android:textStyle="bold"-->
+
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="372dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:text=".  looking for adopting a child?"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="20dp"-->
+
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:text=".  Eager to donate for helpless orphan child?"-->
+<!--            android:textSize="19dp"-->
+<!--            android:textColor="@color/black"/>-->
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/adoption"
+            android:scaleType="fitCenter" />
+
+        <android.widget.Button
+
+            android:id="@+id/havealook"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/style"
+            android:text="Create an account"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="130dp"
+        android:src="@drawable/baseline_arrow_forward_24"
+
+
+
+        >
+
+    </ImageView>
+
+
+</LinearLayout>
